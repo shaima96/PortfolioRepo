@@ -1,0 +1,23 @@
+#name{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+}
+#desc{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#link{
+    font-size: 15px;  
+}
+#git{
+    font-size: 15px;  
+}
+#techno{
+    font-size: 15px;  
+}
+span{
+    font-weight: bold;
+}
