@@ -1,0 +1,28 @@
+.home{
+    /* background-color: red; */
+}
+
+.home_details{
+    background: white padding-box;
+	box-shadow: 3px 4px 15px #0000001A;
+	border-radius: 10px;
+	border-color: #013243;
+	width: 50%;
+    color: #525c7b;
+    margin-left: 450px;
+    margin-top: 200px;
+	height: 70%;
+}
+.home_details img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+.links img{
+    width: 50px;
+    height: 50px;
+}
