@@ -16,7 +16,9 @@ class Home extends React.Component {
         return (
             <div className='home'>
                 <div className='home_details'>
+                    <div className='myphoto'> 
                     <img src="https://ca.slack-edge.com/TTVPM20S0-U017VK2HE69-247cb838d39a-512" />
+                    </div>
                     <div className='home_detail'>
                         <h3>HI THERE I'M</h3>
                         <h1 >Shaima' Ihdoosh </h1>

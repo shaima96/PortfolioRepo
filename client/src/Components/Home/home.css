@@ -1,28 +1,40 @@
-.home{
-    /* background-color: red; */
-}
+
 
 .home_details{
-    background: white padding-box;
+    /* background: white padding-box; */
 	box-shadow: 3px 4px 15px #0000001A;
 	border-radius: 10px;
 	border-color: #013243;
 	width: 50%;
     color: #525c7b;
     margin-left: 450px;
-    margin-top: 200px;
-	height: 70%;
+    margin-top: 150px;
+    height: 100%;
 }
-.home_details img{
-    width: 200px;
-    height: 200px;
+
+.home_detail h3{
+    font-weight: bold;    font-size: 22px;
+}
+.home_detail h1{
+    font-weight: bold;
+    color:black;
+    font-size: 22px;
+}
+.myphoto img{
+    border-radius: 100px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 100px;
+    width: 200px;
+    height: 200px;
     box-shadow: 0 10px 6px -6px #777;
+ 
 }
+
 .links img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    background-color:white;
 }

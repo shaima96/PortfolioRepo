@@ -9,42 +9,46 @@ import './project.css'
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 600,
+        maxWidth: 450,
         // backgroundColor:'red',
-        marginLeft:550,
-        marginTop:100,
+        marginLeft: 50,
+        marginTop: 50,
+        borderRadius:30,
     },
     media: {
-        height: 200,
+        height: 150,
     },
 });
 
-export default function ProjectCard({project}) {
+export default function ProjectCard({ project }) {
     const classes = useStyles();
 
     return (
-        <Card className={classes.root}>
+        <Card id='project' className={classes.root}>
             <CardActionArea>
                 <CardMedia
                     className={classes.media}
                     image={project.image}
                     title="Contemplative Reptile"
                 />
+                <br/>
+
                 <CardContent>
-                    <Typography  id="name" gutterBottom variant="h5" component="h1">
+                    <Typography id="name" gutterBottom variant="h5" component="h1">
                         {project.name}
                     </Typography>
-                    <Typography  id='desc' variant="body2" color="textSecondary" component="p">
+                    <Typography id='desc' variant="body2" color="textSecondary" component="p">
                         {project.description}
                     </Typography>
-                    <Typography  id='link' gutterBottom variant="h5" component="h2">
-                        <span>Link:</span>{project.link}
+                    <br/>
+                    <Typography id='link' gutterBottom variant="h5" component="h2">
+                        <span>Link: </span>{project.link}
                     </Typography>
-                    <Typography id='git'  gutterBottom variant="h5" component="h2">
-                    <span>GitHub Link:</span>{project.gitLink}
+                    <Typography id='git' gutterBottom variant="h5" component="h2">
+                        <span>GitHub Link: </span>{project.gitLink}
                     </Typography>
                     <Typography id='techno' gutterBottom variant="h5" component="h2">
-                       <span>Technology:</span> {project.technology}
+                        <span>Technology: </span> {project.technology}
                     </Typography>
                 </CardContent>
             </CardActionArea>

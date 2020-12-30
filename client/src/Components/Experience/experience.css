@@ -1,0 +1,27 @@
+.exp{
+    display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.experience{
+    width:500px;
+    height:400px;
+    margin-left: 500px;
+    background: white padding-box;
+	box-shadow: 3px 4px 15px gray;
+	border-radius: 10px;
+}
+
+.experience h2{
+    font-weight: bold;
+   padding-top: 20px;
+}
+
+.experience p li{
+    text-align: justify;
+    list-style-type: none;
+    width: 90%;
+    left: 20px;
+}

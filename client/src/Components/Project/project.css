@@ -1,7 +1,7 @@
 #name{
-    color:black;
     font-weight: bold;
     font-size: 25px;
+    color: darkcyan;
 }
 #desc{
     text-align: justify;
@@ -10,14 +10,39 @@
 }
 
 #link{
-    font-size: 15px;  
+    font-size: 15px; 
+    text-align: left;
+     
 }
 #git{
-    font-size: 15px;  
+    font-size: 15px; 
+    text-align: left; 
 }
 #techno{
     font-size: 15px;  
+    text-align: left;
 }
 span{
     font-weight: bold;
+    color: rgb(2, 95, 99);
+    font-size: 18px;
+}
+
+.proje{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    margin-bottom: 50px;
+}
+.project{
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding: 30px;
 }

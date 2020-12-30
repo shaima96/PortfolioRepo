@@ -26,8 +26,8 @@ class Project extends React.Component {
     render() {
         const { projects } = this.state
         return (
-            <div className='project'>
-                <div>
+            <div className='projects'>
+                <div className='proje'>
                     {
                         projects ? projects.map((pro, i) => <ProjectCard  project={pro} key={i} />) : <div></div>
                     }                </div>
