@@ -9,6 +9,7 @@ import Education from '../src/Components/Education/Education'
 import Experience from '../src/Components/Experience/Experience'
 
 
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,10 @@ function App() {
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/educ' component={Education} />
         <Route exact path='/experience' component={Experience} />
+
+        
       </Switch>
+
     </div>
   );
 }
