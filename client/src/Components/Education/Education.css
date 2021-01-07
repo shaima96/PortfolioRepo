@@ -5,7 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding-top: 10rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .educ{
@@ -18,13 +18,14 @@
 	border-radius: 30px;
     width: 23%;
     height: 40%;
+    margin-top: -40px;
 }
 
 .educ h2{
    padding-top: 20px;
    font-weight: bold;
    color: rgb(2, 95, 99);
-   font-size: 23px;
+   font-size: 25px;
 }
 
 .educ h5{
@@ -32,8 +33,15 @@
    color: gray;
    font-size: 15px;
 }
+.educ h4{
+    margin-right: 15px;
+}
 
 .educ p {
-    text-align: justify;
     margin-left: 30px;
+    text-align: justify;
+}
+
+#ed{
+    font-size: 20px;
 }

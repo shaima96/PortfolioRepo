@@ -6,13 +6,14 @@ const Header = () => {
     return (
 
         <div className='header'>
-            <Link to='/'>
+            {/* <Link to='/'>
 
                 <div className="image">
                     <img src="https://www.flaticon.com/svg/static/icons/svg/3588/3588230.svg" onclick="window.location.href='/'" />
                 </div>
-            </Link>
+            </Link> */}
             <div className='header__contents'>
+            <Link to='/' style={{ textDecoration: "none" }}><h4 className='header__taps'> Home </h4></Link>
                 <Link to='/educ' style={{ textDecoration: "none" }}><h4 className='header__taps'> Education </h4></Link>
                 <Link to='/experience' style={{ textDecoration: "none" }}><h4 className='header__taps'> Experience</h4></Link>
                 <Link to='/project' style={{ textDecoration: "none" }}><h4 className='header__taps'> Project </h4></Link>

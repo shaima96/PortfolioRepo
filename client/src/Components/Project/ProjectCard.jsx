@@ -10,7 +10,6 @@ import './project.css'
 const useStyles = makeStyles({
     root: {
         maxWidth: 450,
-        // backgroundColor:'red',
         marginLeft: 50,
         marginTop: 50,
         borderRadius:30,
@@ -25,21 +24,22 @@ export default function ProjectCard({ project }) {
 
     return (
         <Card id='project' className={classes.root}>
-            <CardActionArea>
-                <CardMedia
+                {/* <CardMedia
                     className={classes.media}
                     image={project.image}
                     title="Contemplative Reptile"
-                />
+                /> */}
                 <br/>
 
                 <CardContent>
                     <Typography id="name" gutterBottom variant="h5" component="h1">
                         {project.name}
                     </Typography>
+                    <br/>
                     <Typography id='desc' variant="body2" color="textSecondary" component="p">
                         {project.description}
                     </Typography>
+                    <br/>
                     <br/>
                     <Typography id='link' gutterBottom variant="h5" component="h2">
                         <span>Link: </span>{project.link}
@@ -47,11 +47,11 @@ export default function ProjectCard({ project }) {
                     <Typography id='git' gutterBottom variant="h5" component="h2">
                         <span>GitHub Link: </span>{project.gitLink}
                     </Typography>
+                     <br/>
                     <Typography id='techno' gutterBottom variant="h5" component="h2">
                         <span>Technology: </span> {project.technology}
                     </Typography>
                 </CardContent>
-            </CardActionArea>
         </Card>
     );
 }
