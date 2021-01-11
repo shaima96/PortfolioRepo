@@ -1,24 +1,50 @@
 
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .home_details{
-    /* background: white padding-box; */
+    /* background: white padding-box; 
 	box-shadow: 3px 4px 15px #0000001A;
-	border-radius: 10px;
-	border-color: #013243;
-	width: 50%;
+	border-radius: 5px;
+	border-color: #013243;  */
+	width: 20%;
     color: #525c7b;
-    margin-left: 450px;
+    margin-left: 60px;
     margin-top: 100px;
     height: 100%;
+    
+}
+.home_detail{
+    margin-left: 30px;
 }
 
 .home_detail h3{
     font-weight: bold;    font-size: 22px;
 }
-.home_detail h1{
+.home_detail h2{
     font-weight: bold;
     color:black;
-    font-size: 22px;
+    font-size: 37px;
 }
+.home_detail button{
+    background-color: darkcyan;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 50px;
+    
+}
+.home_detail button:hover{
+    background-color:white;
+    color: darkcyan;
+    border-color: darkcyan;
+}
+
 .myphoto img{
     border-radius: 100px;
     background-size: cover;
@@ -30,9 +56,58 @@
 }
 
 .links img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 50px;
     margin-right: 15px;
     margin-bottom: 0;
     background-color:white;
+}
+
+/* body{
+    background-color:#bababa;
+    height: 100%;
+} */
+
+/* 
+.image #img{
+    width: 100%;
+} */
+
+.contact_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ .button1 #contact{
+    border-radius: 50px;
+    background-color:darkcyan;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+ }
+
+ .button1 #contact:hover{
+    background-color:white;
+    color: darkcyan;
+    border-color: darkcyan;
+ }
+ .button2 #resume{
+    border-radius: 50px;
+    background-color: darkcyan;
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+ }
+
+ .button2 #resume:hover{
+    background-color:white;
+    color: darkcyan;
+    border-color: darkcyan;
 }

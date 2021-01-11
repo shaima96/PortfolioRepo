@@ -5,7 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding-top: 10rem;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 }
 
 .experience{
@@ -13,11 +13,11 @@
     flex-direction: column;
     padding: 30px;
     margin-right: 10px;
-    background: white padding-box;
+    background:white padding-box;
 	box-shadow: 3px 4px 15px #0000001A;
 	border-radius: 30px;
     width: 23%;
-    height: 40%;
+    height: 10%;
     margin-top: -90px;
 }
 
@@ -29,9 +29,9 @@
 }
 
 .experience h5{
-   font-weight: bold;
-   color: gray;
-   font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    font-size: 17px;
 }
 
 .experience p li{

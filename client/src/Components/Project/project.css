@@ -1,4 +1,4 @@
-#name{
+/* #name{
     font-weight: bold;
     font-size: 25px;
     color: darkcyan;
@@ -24,7 +24,7 @@
 }
 span{
     font-weight: bold;
-    color: rgb(2, 95, 99);
+    color: black;
     font-size: 18px;
 }
 
@@ -45,4 +45,105 @@ span{
     align-items: center;
     padding-top: 3rem;
     padding: 30px;
+}
+
+ */
+
+#project{
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding: 30px;
+}
+.project_image img{
+    width: 500px;
+    height: 350px;
+    background: white padding-box; 
+	box-shadow: 3px 4px 15px #0000001A;
+	border-radius: 10px;
+    border-color: #013243; 
+    margin-right: 800px;
+    transition: transform .2s;
+}
+
+.project_image img:hover{
+    transform: scale(1.2);
+}
+
+#project .project_desc{
+    margin-left: 700px;
+    margin-top: -350px;
+}
+
+#project .project_desc h1{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 35px;
+}
+#project .project_desc h1:hover{
+    color: gray;
+}
+#project .project_desc a{
+    text-decoration: none;
+}
+#project .project_desc p{
+    justify-items: center;
+    color:black;
+    text-align: left;
+    margin-left: 200px;
+    width: 60%;
+    font-size: 20px;
+}
+#project .project_desc h3{
+    color: black;
+    font-size: 17px;
+    margin-left:50px;
+}
+#project .project_desc span{
+    color:darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.project_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project_button1 button{
+    border-radius: 50px;
+    background-color: darkcyan;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 20px;
+    border-color: darkcyan;
+}
+.project_button1 button:hover{
+    background-color:white;
+    color: darkcyan;
+    border-color: darkcyan;
+   
+}
+
+.project_button2 button{
+    border-radius: 50px;
+    background-color: darkcyan;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.project_button2 button:hover{
+    background-color:white;
+    color: darkcyan;
+    border-color: darkcyan;
+   
 }

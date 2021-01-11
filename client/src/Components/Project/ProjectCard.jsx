@@ -1,57 +1,35 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
+
 import './project.css'
 
-const useStyles = makeStyles({
-    root: {
-        maxWidth: 450,
-        marginLeft: 50,
-        marginTop: 50,
-        borderRadius:30,
-    },
-    media: {
-        height: 150,
-    },
-});
 
-export default function ProjectCard({ project }) {
-    const classes = useStyles();
 
+function ProjectCard({ project }) {
     return (
-        <Card id='project' className={classes.root}>
-                {/* <CardMedia
-                    className={classes.media}
-                    image={project.image}
-                    title="Contemplative Reptile"
-                /> */}
+        <div id='project'>
+            <div className='project_image'>
+                <img src={project.image} />
+            </div>
+            <div className='project_desc'>
+                <a href={project.link} target="_blank" ><h1>{project.name}</h1></a>
+                <p>{project.description}</p>
+                <h3><span>Technology: </span>{project.technology}</h3>
                 <br/>
+            <div className='project_link'>
+                <div className='project_button1'>
+                    <a href={project.link} target='_blank'> <button> View App</button></a>
+                </div>
+                <div className='project_button2'>
+                    <a href={project.gitLink} target='_blank'>
+                        <button>Github Link </button>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
 
-                <CardContent>
-                    <Typography id="name" gutterBottom variant="h5" component="h1">
-                        {project.name}
-                    </Typography>
-                    <br/>
-                    <Typography id='desc' variant="body2" color="textSecondary" component="p">
-                        {project.description}
-                    </Typography>
-                    <br/>
-                    <br/>
-                    <Typography id='link' gutterBottom variant="h5" component="h2">
-                        <span>Link: </span>{project.link}
-                    </Typography>
-                    <Typography id='git' gutterBottom variant="h5" component="h2">
-                        <span>GitHub Link: </span>{project.gitLink}
-                    </Typography>
-                     <br/>
-                    <Typography id='techno' gutterBottom variant="h5" component="h2">
-                        <span>Technology: </span> {project.technology}
-                    </Typography>
-                </CardContent>
-        </Card>
     );
+
 }
+
+export default ProjectCard

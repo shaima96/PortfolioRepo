@@ -1,5 +1,57 @@
 h2{
-    color: gray;
+    color: darkcyan;
+    font-size: 37px;
     font-weight: bold;
-    font-size: 33px;
+}
+
+.con_contact{
+    margin-left: 1050px;
+    margin-top: -335px;
+    height: 300px;
+    width: 250px;
+}
+
+.form{
+    width: 40%;
+    height: 300px;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.form #input{
+    border-radius: 50px;
+    height: 15%;
+    width: 35%;
+    border-color:black;
+    font-size: 14px;
+    background-color: white;
+    border: 3px solid black;
+    font-weight: bold;
+}
+
+.form #input:hover{
+    color: darkcyan;
+    border-color: black;
+    font-weight: bold;
+}
+.form button{
+    border-radius: 50px;
+    height: 12%;
+    color:black;
+    font-weight: bold;
+    margin-left: -10px;
+    background-color: darkcyan;
+    font-size: 15px;
+    border-color:black;
+    border: 2px solid black;
+}
+
+.form button:hover{
+    background-color:white;
+    color: black;
+    border-color: black;
+  
+}
+.contact{
+    margin-top: 70px;
 }

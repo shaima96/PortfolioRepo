@@ -7,9 +7,8 @@ const Header = () => {
 
         <div className='header'>
             {/* <Link to='/'>
-
                 <div className="image">
-                    <img src="https://www.flaticon.com/svg/static/icons/svg/3588/3588230.svg" onclick="window.location.href='/'" />
+                    <img src="https://www.flaticon.com/svg/static/icons/s onclick="window.location.href='/'" />
                 </div>
             </Link> */}
             <div className='header__contents'>
