@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin-left: 550px;
+    margin-left: 520px;
     margin-top: 50px;
     
 }
@@ -23,11 +23,13 @@
     color: black;
     font-weight: bold;
     font-size: 25px;
-    color:black;
-
 }
 
 
 .header__contents :hover{
-    color: gray;
+    color:darkcyan;
+    /* cursor: pointer;
+    border-radius: 10px;
+    background-color: darkcyan; */
+
 }

@@ -40,15 +40,15 @@ h2{
     color:black;
     font-weight: bold;
     margin-left: -10px;
-    background-color: darkcyan;
+    background-color: white;
     font-size: 15px;
     border-color:black;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 .form button:hover{
     background-color:white;
-    color: black;
+    color:darkcyan;
     border-color: black;
   
 }
