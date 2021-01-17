@@ -1,6 +1,6 @@
 # Portfolio 
 
-A portfolio is a type of resume that showcases examples of my work along with the usual resume information about your work experience. 
+A portfolio is a type of resume that showcases examples of my work along with the usual resume information about my work experience. 
 
 ## Technologies used
 - [Reactjs](https://reactjs.org/) 
