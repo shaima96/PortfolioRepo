@@ -15,7 +15,7 @@
     margin-right: 1px;
     background: white padding-box;
 	box-shadow: 3px 4px 15px #0000001A;
-	border-radius: 30px;
+    border-radius: 30px;
     width: 23%;
     height: 40%;
     margin-top: -90px;
@@ -25,20 +25,22 @@
    padding-top: 20px;
    font-weight: bold;
    color: rgb(2, 95, 99);
-   font-size: 25px;
+   font-size: 27px;
 }
 
 .educ h5{
    font-weight: bold;
    color: gray;
-   font-size: 17px;
+   font-size: 20px;
 }
 .educ h4{
-    margin-right: 8px;
+    margin-right: 10px;
+    font-size: 18px;
 }
 
 .educ p {
     margin-left: 30px;
+    font-size: 16px;
     text-align: justify;
 }
 .educ p  span{
@@ -48,4 +50,10 @@
 
 #ed{
     font-size: 20px;
+}
+
+
+ .educ .edu_image img{
+    width: 100px;
+    height: 100px;
 }

@@ -28,7 +28,7 @@ class Home extends React.Component {
                             </Link>
                         </div>
                         <div className='button2'>
-                            <a href="https://drive.google.com/file/d/1BKnuiY_GYHpOO6FMaYdYek-IjHCwX0uJ/view?usp=sharing" target='_blank'>
+                            <a href="https://drive.google.com/file/d/1eloDQ1NM-yRpb0X6ogUgvaUF0tbdF7jz/view?usp=sharing" target='_blank'>
                                 <button id='resume'>My Resume</button>
                             </a>
                         </div>

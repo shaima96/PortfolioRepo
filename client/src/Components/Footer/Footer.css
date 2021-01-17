@@ -1,0 +1,15 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:darkcyan;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: -10px;   
+}
+
+.footer_details a:hover{
+    color: white;
+}

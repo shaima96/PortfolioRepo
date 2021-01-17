@@ -24,6 +24,7 @@ h2{
     width: 35%;
     border-color:black;
     font-size: 14px;
+    /* background-color: rgb(158, 151, 151); */
     background-color: white;
     border: 3px solid black;
     font-weight: bold;
@@ -40,18 +41,29 @@ h2{
     color:black;
     font-weight: bold;
     margin-left: -10px;
+    /* background-color: whitesmoke; */
     background-color: white;
+
     font-size: 15px;
     border-color:black;
     border: 3px solid black;
 }
 
 .form button:hover{
-    background-color:white;
+    /* background-color:whitesmoke; */
+    background-color: white;
     color:darkcyan;
     border-color: black;
   
 }
 .contact{
     margin-top: 70px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkcyan;
 }

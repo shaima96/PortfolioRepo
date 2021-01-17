@@ -1,53 +1,4 @@
-/* #name{
-    font-weight: bold;
-    font-size: 25px;
-    color: darkcyan;
-}
-#desc{
-    text-align: justify;
-    font-size: 15px;
-    font-weight: 500;
-}
 
-#link{
-    font-size: 15px; 
-    text-align: left;
-     
-}
-#git{
-    font-size: 15px; 
-    text-align: left; 
-}
-#techno{
-    font-size: 15px;  
-    text-align: left;
-}
-span{
-    font-weight: bold;
-    color: black;
-    font-size: 18px;
-}
-
-.proje{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 3rem;
-    margin-bottom: 50px;
-}
-.project{
-    margin-top:60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3rem;
-    padding: 30px;
-}
-
- */
 
 #project{
     margin-top:60px;
@@ -70,7 +21,7 @@ span{
 }
 
 .project_image img:hover{
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
 
 #project .project_desc{
@@ -118,7 +69,7 @@ span{
 .project_button1 button{
     border-radius: 50px;
     background-color: darkcyan;
-    width: 120px;
+    width: 130px;
     height: 50px;
     font-weight: bold;
     font-size: 17px;
@@ -135,7 +86,7 @@ span{
 .project_button2 button{
     border-radius: 50px;
     background-color: darkcyan;
-    width: 120px;
+    width: 130px;
     height: 50px;
     font-weight: bold;
     font-size: 17px;

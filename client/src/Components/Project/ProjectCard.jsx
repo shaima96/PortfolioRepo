@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
                 </div>
                 <div className='project_button2'>
                     <a href={project.gitLink} target='_blank'>
-                        <button>Github Link </button>
+                        <button>Source Code </button>
                     </a>
                 </div>
             </div>
