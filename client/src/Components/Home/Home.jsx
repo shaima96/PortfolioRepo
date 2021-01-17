@@ -37,6 +37,7 @@ class Home extends React.Component {
                     <br />
                     <br />
                     <div className="links">
+                        
                         <a href="https://github.com/shaima96" target="_blank">
                             <img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg" /></a>
                         <a href="https://www.linkedin.com/in/shaimaihdoosh/" target="_blank">
@@ -49,11 +50,13 @@ class Home extends React.Component {
                 </div>
                 <div className='home_detail'>
                     <h2>Hello<img src='https://www.flaticon.com/svg/static/icons/svg/599/599335.svg' width='50px' height='50px' />, I'M  Shaima' Ihdoosh</h2>
-                    <h3> I am a Full Stack Web Developer </h3>
+                    <h3>Full Stack Web Developer </h3>
+                    <p>Self-motivated developer with knowledge and proficiency<br/> in a lot of <Link to='skills'><span>languages</span>
+                    </Link>,Hard-working individual with strong <br/> ability to communicate and work in a team effectiveluy. </p>
                     <br />
-
+                    <br />
                     <Link to='/project'>
-                        <button>View My Work </button>
+                        <button>View My Project </button>
                     </Link>
                 </div>
             </div>

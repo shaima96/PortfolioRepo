@@ -1,39 +1,3 @@
-/* .skills { 
-    width:1000px; 
-    height:190px; 
-    background-color:red; 
-    padding-top:20px; 
-    padding-left:15px; 
-    padding-right:15px; 
-} 
-.s1 { 
-    float:left; 
-    width:350px; 
-    height:200px; 
-    background-color:white; 
-    border:solid black; 
-} 
-.s2 { 
-    float:left; 
-    width:350px; 
-    height:200px; 
-    background-color:white;  
-    border:solid black; 
-    margin-left:20px; 
-} 
-.s3 { 
-    float:right; 
-    width:350px; 
-    height:200px; 
-    background-color:white; 
-    border:solid black; 
-} 
-
-
-.skills .s1 img{
-    width: 60px;
-    height: 60px;
-} */
 
 .skills{
     margin: auto;
@@ -41,8 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 8rem;
-    margin-bottom: 80px;  
+    padding-top: 6rem;
+    margin-bottom: 70px;  
     width: 1800px;
 }
 .s1 img{
@@ -97,4 +61,5 @@
 
 h2{
     font-size: 28px;
+    color: darkcyan;
 }

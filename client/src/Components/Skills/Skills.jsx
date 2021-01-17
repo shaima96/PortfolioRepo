@@ -37,7 +37,7 @@ class Skills extends React.Component {
                         </p>
                     </div>
                     <div  className='s3'>
-                        <h2>HTML</h2>
+                        <h2>HTML/CSS</h2>
                         <p>
                         <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
                         <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
@@ -48,7 +48,7 @@ class Skills extends React.Component {
                     </div>
 
                     <div className='s1'>
-                        <h2>CSS</h2>
+                        <h2>Material UI</h2>
                         <p>
                         <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
                         <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
@@ -69,6 +69,37 @@ class Skills extends React.Component {
                     </div>
                     <div className='s3'>
                         <h2>React Native</h2>
+                        <p>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828970.svg?token=exp=1610823325~hmac=1c4625332f47457c4a835e0cb235220b'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828970.svg?token=exp=1610823325~hmac=1c4625332f47457c4a835e0cb235220b'/></span>                        
+                        </p>
+                    </div>
+
+                    <div className='s1'>
+                        <h2>Django</h2>
+                        <p>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828970.svg?token=exp=1610823325~hmac=1c4625332f47457c4a835e0cb235220b'/></span>                        
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828970.svg?token=exp=1610823325~hmac=1c4625332f47457c4a835e0cb235220b'/></span>                        
+                        </p>
+                    </div>
+                    <div className='s2'>
+                        <h2>Node JS</h2>
+                       <p>
+                       <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                       <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                       <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                       <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
+                        <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828970.svg?token=exp=1610823325~hmac=1c4625332f47457c4a835e0cb235220b'/></span>                        
+                        </p>
+                    </div>
+                    <div className='s3'>
+                        <h2>JWT</h2>
                         <p>
                         <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
                         <span className="checked"> <img src='https://www.flaticon.com/svg/vstatic/svg/1828/1828884.svg?token=exp=1610828683~hmac=ece8d00cdf2f99674e9403c7da2bfb09'/></span>
